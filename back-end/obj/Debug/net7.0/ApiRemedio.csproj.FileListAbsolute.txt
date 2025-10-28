@@ -1,0 +1,7 @@
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.csproj.AssemblyReference.cache
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.GeneratedMSBuildEditorConfig.editorconfig
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.AssemblyInfoInputs.cache
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.AssemblyInfo.cs
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.csproj.CoreCompileInputs.cache
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.MvcApplicationPartsAssemblyInfo.cs
+E:\facul\4° semestre\C#\revisaoPROVA\ApiRemedio\back-end\obj\Debug\net7.0\ApiRemedio.MvcApplicationPartsAssemblyInfo.cache
