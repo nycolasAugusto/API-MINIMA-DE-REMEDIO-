@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Remédio (PUT)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+     <nav>
+    <a href="../post/index.html">Cadastro (POST)</a> | 
+    <a href="../get/get.html">Listar (GET)</a> | 
+    <a href="../put/put.html">Atualizar (PUT)</a> | 
+    <a href="../delete/delete.html">Deletar (DELETE)</a>
+</nav>
+
+    <h1>Atualizar Remédio</h1>
+
+    <h2>Passo 1: Buscar o Remédio</h2>
+    <form id="formBuscarPut">
+        <div>
+            <label for="remedioIdBuscar">ID do Remédio para Atualizar:</label>
+            <input type="number" id="remedioIdBuscar" required>
+        </div>
+        <button type="submit" class="btn-acao">Buscar</button>
+    </form>
+
+    <form id="formAtualizar" style="display: none;">
+        <h2>Passo 2: Edite os Dados</h2>
+        
+        <input type="hidden" id="remedioIdPut">
+        
+        <div>
+            <label for="nomeRemedioPut">Nome</label>
+            <input type="text" id="nomeRemedioPut" required>
+        </div>
+        <div>
+            <label for="marcaPut">Marca</label>
+            <input type="text" id="marcaPut" required>
+        </div>
+        <div>
+            <label for="miligramasPut">Miligramas (mg):</label>
+            <input type="number" id="miligramasPut" step="0.1" required>
+        </div>
+        <div>
+            <label for="valorPut">Valor (R$):</label>
+            <input type="number" id="valorPut" step="0.01" required>
+        </div>
+        <div>
+            <label for="dataValidadePut">Data de Validade:</label>
+            <input type="date" id="dataValidadePut" required>
+        </div>
+
+        <button type="submit" class="btn-acao">Salvar Alterações</button>
+    </form>
+
+    <script src="put.js"></script>
+</body>
+</html>

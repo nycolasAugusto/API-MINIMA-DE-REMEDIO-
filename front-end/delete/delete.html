@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar Remédio (DELETE)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+   <nav>
+    <a href="../post/index.html">Cadastro (POST)</a> | 
+    <a href="../get/get.html">Listar (GET)</a> | 
+    <a href="../put/put.html">Atualizar (PUT)</a> | 
+    <a href="../delete/delete.html">Deletar (DELETE)</a>
+</nav>
+
+    <h1>Deletar Remédio</h1>
+    <form id="formDelete">
+        <div>
+            <label for="selectRemedio">Selecione o Remédio para Deletar:</label>
+            <select id="selectRemedio" required>
+                <option value="">Carregando remédios...</option>
+                </select>
+        </div>
+        <button type="submit" class="btn-delete">Deletar Selecionado</button>
+    </form>
+    <div id="resultadoDelete"></div>
+
+    <script src="delete.js"></script>
+</body>
+</html>

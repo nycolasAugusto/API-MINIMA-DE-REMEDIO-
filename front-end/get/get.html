@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Remédios (GET)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav>
+    <a href="../post/index.html">Cadastro (POST)</a> | 
+    <a href="../get/get.html">Listar (GET)</a> | 
+    <a href="../put/put.html">Atualizar (PUT)</a> | 
+    <a href="../delete/delete.html">Deletar (DELETE)</a>
+</nav>
+
+    <h1 id="paragrafo">Listar Remédios</h1>
+
+    <h2>Todos os Remédios</h2>
+    <form id="formGetTodos">
+        <button type="submit" class="btn-acao">Listar Todos</button>
+    </form>
+    <table id="tabelaRemedios">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Marca</th>
+                <th>Miligramas</th>
+                <th>Validade</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela">
+            </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Buscar Remédio por ID</h2>
+    <form id="formGetPorId">
+        <div>
+            <label for="remedioId">ID do Remédio:</label>
+            <input type="number" id="remedioId" required>
+        </div>
+        <button type="submit" class="btn-acao">Buscar</button>
+    </form>
+    <div id="resultadoBusca" style="display: none;">
+        <h3>Remédio Encontrado:</h3>
+        <pre id="remedioDetalhes"></pre> </div>
+
+    <script src="get.js"></script>
+</body>
+</html>

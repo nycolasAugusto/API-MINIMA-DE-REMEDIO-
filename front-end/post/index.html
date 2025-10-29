@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+   <nav>
+    <a href="../post/index.html">Cadastro (POST)</a> | 
+    <a href="../get/get.html">Listar (GET)</a> | 
+    <a href="../put/put.html">Atualizar (PUT)</a> | 
+    <a href="../delete/delete.html">Deletar (DELETE)</a>
+</nav>
+
+    <hr>
+    <h1>Cadastre seu remedio :</h1>
+    <hr>
+
+    
+    <form action="" method="post" id="formRemedio">
+    
+    <div>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nomeRemedio" required="">
+
+    </div>
+    <div>
+
+        <label for="marca">Marca</label>
+        <input type="text" id="marca" required="">
+
+    </div>
+    <div>
+
+        <label for="miligramas">Miligramas (mg):</label>
+        <input type="number" id="miligramas" step="0.1" required="">
+
+    </div>
+
+    <div>
+
+        <label for="valor">Valor (R$):</label>
+        <input type="number" id="valor" step="0.01" required="">
+
+    </div>
+
+    <div>
+
+        <label for="dataValidade">Data de Validade:</label>
+        <input type="date" id="dataValidade" required="">
+
+    </div>
+
+    <button type="submit">Salvar</button>
+    <button type="reset" id="btnCancelar">Limpar</button>
+
+
+    </form>
+
+</body>
+</html>
